@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Максим](https://up.htmlacademy.ru/htmlcss/20/user/470147).
-* Наставник: `Неизвестно`.
+* Студент: [Максим Иванченко](https://up.htmlacademy.ru/htmlcss/20/user/470147).
+* Наставник: [Виктория Касаковская](https://up.htmlacademy.ru/htmlcss/20/user/238370).
 
 ---
 
