@@ -834,7 +834,7 @@ background-color: #212a3a;
 	display: flex;
 }
 
-/*.products .image{
+.products .image{
 	width: 218px;
 	height: 156px;
 }
@@ -878,7 +878,7 @@ background-color: #212a3a;
 
 .products:nth-child(3n){
     margin-right:0;
-}*/
+}
 
 .filter{
 	margin-right: 10px;
