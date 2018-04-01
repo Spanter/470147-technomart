@@ -41,9 +41,10 @@
             <a href="#" class="user">Равшан Джамшутович</a>
             <a href="#" class="exit">Выход</a>
           </div>
+          <div class="personal-area">
           <a href="#" class="orders">Мои  заказы</a>
-          <span>&bull;</span>
           <a href="#" class="personal">Личный кабинет</a>
+          </div>
         </div>
       </div>
       <nav class="header-navigation container">
@@ -62,7 +63,12 @@
   <main>
     <div class="main-category container">
       <ul class="breadcrumbs">
-        <li><a href="index.html" class="home"><span>Главная</span></a></li>
+        <li><a href="index.html" class="home"><span class="visually-hidden">Главная</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
+            <g fill="#C1C6CE"><path d="M3 8v4h4V8h2v4h4V8L8 3.516z"/><path d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z"/>
+            </g>
+          </svg>
+        </a></li>
         <li><a href="#" class="home-catalog">Каталог</a></li>
         <li><a href="#">Инструмент</a></li>
         <li class="tool"><a href="#">Перфораторы</a></li>
@@ -76,7 +82,7 @@
 
       <div class="filter">
         <p>Фильтр:</p>
-        <form action="/echo" method="post">
+        <form action="https://echo.htmlacademy.ru"" method="post">
           <fieldset class="price-filter" >
             <legend>Цена:</legend>
             <div class="range-filter">
@@ -171,7 +177,7 @@
         </div>
 
         <section class="catalog-product">
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_3000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 3000">
             </div>
@@ -185,13 +191,13 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_6000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 6000">
             </div>
             <p class="title">Перфоратор BOSCH BFG 6000</p>
             <div class="discount">30500 Р.</div>
-            <div class="price">22500 Р.</div>
+            <div class="price">25500 Р.</div>
             <div class="actions">
               <ul class="to-order">
                 <li><a href="#" class="buy">Купить</a></li>
@@ -199,7 +205,7 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="flag new-flag">Новинка</div>
             <div class="product-image">
               <img class="image" src="img/index_2000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 2000">
@@ -213,7 +219,7 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_3000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 3000">
             </div>
@@ -227,14 +233,14 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_6000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 6000">
             </div>
             <p class="title">Перфоратор BOSCH BFG 6000</p>
             <div class="flag new-flag">Новинка</div>
             <div class="discount">30500 Р.</div>
-            <div class="price">22500 Р.</div>
+            <div class="price">25500 Р.</div>
             <div class="actions">
               <ul class="to-order">
                 <li><a href="#" class="buy">Купить</a></li>
@@ -242,7 +248,7 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_2000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 2000">
             </div>
@@ -255,7 +261,7 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <div class="flag new-flag">Новинка</div>
               <img class="image" src="img/index_3000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 3000">
@@ -270,13 +276,13 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_6000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 6000">
             </div>
             <p class="title">Перфоратор BOSCH BFG 6000</p>
             <div class="discount">30500 Р.</div>
-            <div class="price">22500 Р.</div>
+            <div class="price">25500 Р.</div>
             <div class="actions">
               <ul class="to-order">
                 <li><a href="#" class="buy">Купить</a></li>
@@ -284,7 +290,7 @@
               </ul>
             </div>
           </article>
-          <article class="products">
+          <article class="products-price">
             <div class="product-image">
               <img class="image" src="img/index_2000.jpg" width="218" height="156" alt="Перфоратор BOSCH BFG 2000">
             </div>
@@ -320,7 +326,7 @@
       <div class="footer-top-wrapper">
         <div class="footer-top-address">
           <a class="footer-logo" href="index.html">
-            <img  src="img/logo-2.png" width="110" height="18" alt="Техномарт">
+            <img  src="img/logo-2-footer.png" width="138" height="21" alt="Техномарт">
           </a>
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> 
           +7 (812) 555-05-55</p>
@@ -376,7 +382,6 @@
   </div>
 </footer>
 
-<!--Добавлена окно заказа-->
 <section class="modal-content modal">
   <button class="button-close" type="button" title="Закрыть">Закрыть</button>
   <div class="modal-info">
@@ -389,5 +394,6 @@
     </ul>
   </div>
 </section>
+
 </body>
 </html>
