@@ -775,6 +775,12 @@ input[type="radio"].visually-hidden {
 	width: 218px;
 	height: 143px;
 }
+
+.brands a:hover,
+.brands a:focus{
+	box-shadow: 0 2px 31px -5px #000;
+}
+
 .brands{
 	margin-top: 20px;
 	margin-right: 20px;
@@ -2036,6 +2042,10 @@ input[type="radio"].visually-hidden {
 	background: url(../img/form-2.svg) no-repeat 0 0;
 }
 
+.show-info{
+	display: block;
+}
+
 .write-us{
 	border-top: 7px solid #ff5357;
 	background-color: #fff;
@@ -2062,29 +2072,29 @@ input[type="radio"].visually-hidden {
 	color: #000;
 	font-size: 18px;
 	line-height: 18px;
-	padding-top: 45px;
-	padding-bottom: 10px;
+	margin-top: 45px;
 }
 
 .message {
 	font-size: 18px;
 	line-height: 18px;
 	color: #000;
-	padding-top: 19px;
+	padding-top: 25px;
 }
 
 .write-us input[type="text"]{
-	width: 216px;
+	width: 193px;
 	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", "Arial", sans-serif;
 	border: 2px solid	#d7dcde;
 	border-radius: 3px;
 	padding: 10px 0 10px 13px;
+	margin-top: 8px;
 }
 .write-us textarea{
-	width: 456px;
-	height: 34px;
+	width: 443px;
+	height: 90px;
 	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -2092,6 +2102,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 3px;
 	padding: 10px 0 10px 13px;
 	resize: none;
+	margin-top: 8px;
 }
 
 .send-off{
@@ -2125,6 +2136,10 @@ input[type="radio"].visually-hidden {
 	font-size: 0;
 	display: none;
 	z-index: 10;
+}
+
+.map-show{
+	display: block;
 }
 
 .map-close{
