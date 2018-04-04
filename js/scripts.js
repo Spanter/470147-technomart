@@ -32,12 +32,29 @@ CloseInfo.addEventListener("click", function(event) {
 }
 );
 
-/*form.addEventListener("submit", function (evt) {
-   if (loginInput.value && emailInput.value && textInput.value.length > 10) {
-     localStorage.setItem("loginInput", loginInput.value);
-     localStorage.setItem("emailInput", emailInput.value);
-   } else {
-     evt.preventDefault();
-     console.log("Нужно ввести логин и e-mail");
-   }
- });*/
+
+/*
+var ModalBuy = document.querySelector(".buy");
+var ModalContent = document.querySelector(".modal-content");
+var ModalClose = document.querySelector(".button-close");
+
+for (var i = 0; i < ModalBuy.length; i++) {
+	ModalBuy[i].addEventListener("click", function(event){
+		event.preventDefault();
+		ModalContent.classList.add("modal-content-show");
+	});
+}
+
+ModalClose.addEventListener("click", function(event){
+	event.preventDefault();
+	ModalContent.classList.remove("modal-content-show");
+});
+
+window.addEventListener("keydown", function(event)){
+	if (event.keyCode === 27) {
+		if (ModalContent.classList.contains("modal-content-show")) {
+			ModalContent.classList.remove("modal-content-show");
+		}
+	}
+});*/
+
