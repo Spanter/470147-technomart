@@ -18,7 +18,7 @@ CloseMap.addEventListener("click", function(event) {
 var OpenInfo = document.querySelector(".info-js");
 var CloseInfo = document.querySelector(".modal-write-close");
 var PopupInfo = document.querySelector(".modal-write");
-var form = document.querySelector(".write-us");
+//var form = document.querySelector(".write-us");
 
 OpenInfo.addEventListener("click", function(event) {
 	event.preventDefault();
@@ -29,32 +29,38 @@ OpenInfo.addEventListener("click", function(event) {
 CloseInfo.addEventListener("click", function(event) {
 	event.preventDefault();
 	PopupInfo.classList.remove("show-info");
-}
-);
+});
 
 
-/*
-var ModalBuy = document.querySelector(".buy");
+var OpenContent = document.querySelector(".js-click");
 var ModalContent = document.querySelector(".modal-content");
 var ModalClose = document.querySelector(".button-close");
+var ModalContinue = document.querySelector(".continue-shopping");
 
-for (var i = 0; i < ModalBuy.length; i++) {
-	ModalBuy[i].addEventListener("click", function(event){
-		event.preventDefault();
-		ModalContent.classList.add("modal-content-show");
+
+OpenContent.addEventListener("click", function(event){
+	event.preventDefault();
+	ModalContent.classList.add("modal-show");
 	});
-}
 
 ModalClose.addEventListener("click", function(event){
 	event.preventDefault();
-	ModalContent.classList.remove("modal-content-show");
+	ModalContent.classList.remove("modal-show");
 });
 
-window.addEventListener("keydown", function(event)){
-	if (event.keyCode === 27) {
-		if (ModalContent.classList.contains("modal-content-show")) {
-			ModalContent.classList.remove("modal-content-show");
+ModalContinue.addEventListener("click", function(event){
+	event.preventDefault();
+	ModalContent.classList.remove("modal-show");
+});
+
+window.addEventListener("keydown", function(event){
+	if (event.keyCode === 27){
+		event.preventDefault();
+		if (ModalContent.classList.contains("modal-show")){
+			ModalContent.classList.remove("modal-show");
 		}
 	}
-});*/
+});
+
+
 

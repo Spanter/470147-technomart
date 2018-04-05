@@ -10,6 +10,7 @@ body{
 
 .container{
 	width: 940px;
+	padding: 0 10px;
 	margin: 0 auto;
 }
 
@@ -260,6 +261,7 @@ a{
 	        justify-content: space-between;
 	margin-top: 32px;
 	margin-bottom: 23px;
+	padding: 0 10px;
 }
 
 .header-description{
@@ -434,11 +436,11 @@ a{
 	display: none;
 }
 
-.visually-hidden:not(:focus):not(:active),
+/*.visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
 	position: absolute;
-}
+}*/
 
 
 /*Разметка промо*/
@@ -1172,6 +1174,7 @@ input[type="radio"].visually-hidden {
 .footer-top-wrapper{
 	width: 940px;
 	margin: 0 auto;
+	padding: 0 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1288,6 +1291,7 @@ input[type="radio"].visually-hidden {
 
 .footer-bottom-wrapper{
 	width: 940px;
+	padding: 0 10px;
 	margin: 0 auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2438,6 +2442,10 @@ input[type="radio"].visually-hidden {
 	margin-top: -54px;
 	margin-left: -304px;
 	display: none;
+}
+
+.js-click{
+	display: block;
 }
 
 .modal-info{
